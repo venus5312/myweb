@@ -1,0 +1,20 @@
+body {
+    background: #fff8e3;
+  }
+  
+  h1 {
+    color: #78b9ff;
+  }
+  oi {
+    font-weight: bold;
+    font-size: 120%;
+    padding: 10px 20px 40px 10px;
+  }
+  li {
+    padding: 10px 10px 0px 10px;
+  }
+  
+  result {
+    font-weight: bold;
+    font-size: 120%;
+  }

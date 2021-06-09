@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="sub.css">
+  <title>23go</title>
+</head>
+<body>
+  <h1>이삼고 가챠!</h1>
+  <oi>현재 설정된 숫자 범위: 1~45개</oi>
+  <br>
+    <li>물품 14개</li>
+    <li>캐릭터 물건 11개</li>
+    <li>꽝 20개</li>
+    <li>금화제외</li><br>
+  <result>결과:</result>
+<script>
+    var item = {};
+
+//물품 14개
+item[1]= "절대반사환타";
+item[2]= "냥냥초코칩";
+item[3]= "멍멍오레오";
+item[4]= "부꾸부꾸콘";
+item[5]= "벌칙도리토스";
+item[6]= "미니미샌드위치";
+item[7]= "반전버터링";
+item[8]= "애교크로와상";
+item[9]= "중2와플";
+item[10]= "체인지브라우니";
+item[11]= "동물에너지바";
+item[12]= "어린이초코바";
+item[13]= "바꿔바꿔사이다(선물용)";
+item[14]= "의상체인지콜라(선물용)";
+
+//캐릭터물건 11개
+item[15]= "칠훤이의 우산";
+item[16]= "아누비안의 귀걸이";
+item[17]= "이지의 리본";
+item[18]= "지원이의 안경";
+item[19]= "나나의 걸스잡지(연애)";
+item[20]= "유나의 마스크";
+item[21]= "덕화의 사과";
+item[22]= "하랑이의 댕기";
+item[23]= "마리의 초콜렛";
+item[24]= "시부엉의 장갑";
+item[25]= "수호의 화살";
+
+//꽝 20개
+item[26]= "꽝";
+item[27]= "꽝";
+item[28]= "꽝";
+item[29]= "꽝";
+item[30]= "꽝";
+item[31]= "꽝";
+item[32]= "꽝";
+item[33]= "꽝";
+item[34]= "꽝";
+item[35]= "꽝";
+item[36]= "꽝";
+item[37]= "꽝";
+item[38]= "꽝";
+item[39]= "꽝";
+item[40]= "꽝";
+item[41]= "꽝";
+item[42]= "꽝";
+item[43]= "꽝";
+item[44]= "꽝";
+item[45]= "꽝";
+
+//랜덤뽑기
+
+var num = Math.floor(Math.random()*44+1);
+
+
+if (num<=14){
+  document.write("물품당첨!!  ");
+  document.write(item[num]);
+}
+else if (num<=25) {
+  document.write("캐릭터물건: ");
+  document.write(item[num]);
+}
+else {
+  document.write("이런~");
+  document.write(item[num]);
+}
+</script>
+</body>
+</html>
